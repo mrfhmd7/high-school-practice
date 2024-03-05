@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
      return (
-          <div className='flex bg-[#FFF2F3] text-start'>
+          <div className='flex bg-[#FFF2F3] justify-between text-start'>
                <div className='w-1/2 my-auto pl-6'>
                     <h5 className='text-lg font-bold mb-7 text-[#96BB7C]'>Welcome</h5>
                     <div>
