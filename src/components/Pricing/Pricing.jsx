@@ -118,14 +118,14 @@ const Pricing = () => {
                     <h6 className='text-lg font-semibold text-[#96BB7C]'>Testimonials</h6>
                     <h2 className='text-4xl font-bold mt-6'>Watch our Courses</h2>
                     <p className='font-semibold text-[#737373] mt-6'>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
-                    <div className='grid grid-cols-2 text-center mt-10'>
-                         <div className='flex flex-col items-center'>
+                    <div className='grid grid-cols-2 text-center mt-10 gap-5 rounded-md'>
+                         <div className='flex flex-col items-center shadow-md'>
                               <img className='rounded-full h-1/2 w-1/2 object-cover' src="testi-1.jpeg" alt="" />
                               <p className='font-semibold text-[#737373] mt-6'>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                               <h5 className='text-lg font-semibold mt-6'>Regina Miles</h5>
                               <h6 className='font-bold text-[#737373]'>Designer</h6>
                          </div>
-                         <div className='flex flex-col items-center'>
+                         <div className='flex flex-col items-center shadow-md'>
                               <img className='rounded-full h-1/2 w-1/2 object-cover' src="testi-2.jpeg" alt="" />
                               <p className='font-semibold text-[#737373] mt-6'>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                               <h5 className='text-lg font-semibold mt-6'>Regina Miles</h5>
