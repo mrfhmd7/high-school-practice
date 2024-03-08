@@ -1,16 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Pricing = () => {
      return (
           <div className='text-start mt-16'>
                <h6 className='text-lg font-semibold text-[#96BB7C]'>Practice Advice</h6>
                <h2 className='text-4xl font-bold mt-6'>Affordable Packages</h2>
-               <p className='font-semibold text-[#737373] mt-6'>Problems trying to resolve the conflict between the two major realms of Classical physics:
-                    Newtonian mechanics
+               <p className='font-semibold text-[#737373] mt-6'>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
                </p>
                <div className='flex justify-between mt-16'>
                     <div className='flex justify-between items-center gap-4'>
-                         <div className='bg-[url(/public/c-package.jpg)] h-[370px] bg-center w-full bg-cover relative'>
+                         <div className='bg-[url(c-package.jpg)] h-[370px] bg-center w-full bg-cover relative'>
                               <div className='flex gap-3 absolute left-[33%] bottom-5'>
                                    <img className='bg-white rounded-full p-1' src="heart.png" alt="" />
                                    <img className='bg-white rounded-full p-1' src="cart.png" alt="" />
@@ -62,7 +62,7 @@ const Pricing = () => {
                          </div>
                     </div>
                     <div className='flex justify-between items-center gap-4'>
-                    <div className='bg-[url(/public/c-package-2.jpg)] h-[370px] bg-center w-full bg-cover relative'>
+                         <div className='bg-[url(c-package-2.jpg)] h-[370px] bg-center w-full bg-cover relative'>
                               <div className='flex gap-3 absolute left-[33%] bottom-5'>
                                    <img className='bg-white rounded-full p-1' src="heart.png" alt="" />
                                    <img className='bg-white rounded-full p-1' src="cart.png" alt="" />
@@ -114,6 +114,29 @@ const Pricing = () => {
                          </div>
                     </div>
                </div>
+               <div className='mt-10'>
+                    <h6 className='text-lg font-semibold text-[#96BB7C]'>Testimonials</h6>
+                    <h2 className='text-4xl font-bold mt-6'>Watch our Courses</h2>
+                    <p className='font-semibold text-[#737373] mt-6'>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+                    <div className='grid grid-cols-2 text-center mt-10'>
+                         <div className='flex flex-col items-center'>
+                              <img className='rounded-full h-1/2 w-1/2 object-cover' src="testi-1.jpeg" alt="" />
+                              <p className='font-semibold text-[#737373] mt-6'>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                              <h5 className='text-lg font-semibold mt-6'>Regina Miles</h5>
+                              <h6 className='font-bold text-[#737373]'>Designer</h6>
+                         </div>
+                         <div className='flex flex-col items-center'>
+                              <img className='rounded-full h-1/2 w-1/2 object-cover' src="testi-2.jpeg" alt="" />
+                              <p className='font-semibold text-[#737373] mt-6'>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                              <h5 className='text-lg font-semibold mt-6'>Regina Miles</h5>
+                              <h6 className='font-bold text-[#737373]'>Designer</h6>
+                         </div>
+                    </div>
+
+               </div>
+               <Link to='/teachers'>
+                    <button className='bg-[#96BB7C] text-white border-[#96BB7C] mt-10 rounded-md border-2 pr-4 pt-3 pb-3 pl-4 font-bold'>See Our Teachers</button>
+               </Link>
           </div>
      );
 };

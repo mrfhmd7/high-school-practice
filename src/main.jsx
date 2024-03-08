@@ -9,6 +9,7 @@ import Courses from './components/Courses/Courses.jsx'
 import Pricing from './components/Pricing/Pricing.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Error from './components/Error/Error.jsx'
+import Teachers from './components/Teachers/Teachers.jsx'
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />,
       },
+      {
+        path: 'teachers',
+        element: <Teachers />,
+      }
     ],
   },
 ]);
